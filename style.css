@@ -9,6 +9,10 @@
 
 /* NAVBAR */
 
+.hidden {
+  display: none;
+}
+
 .navbar {
   border: 2px solid #327228;
   height: 80px;
@@ -22,6 +26,8 @@
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
+  animation: apparition 1s;
+  -webkit-animation: apparition 1s;
 }
 
 .navbar-nav {
@@ -87,15 +93,6 @@
   -moz-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
-}
-
-.hidden {
-  display: none;
 }
 
 .cross {
@@ -122,6 +119,13 @@
   justify-content: space-around;
   height: 200px;
   width: 30%;
+  animation: apparition 1.5s;
+  -webkit-animation: apparition 1.5s;
+}
+
+.me {
+  animation: apparition 1.5s;
+  -webkit-animation: apparition 1.5s;
 }
 
 .name-text {
@@ -164,6 +168,8 @@
   justify-content: center;
   width: 90%;
   margin: auto;
+  animation: apparition 2s;
+  -webkit-animation: apparition 2s;
 }
 
 .text-pitch {
@@ -181,6 +187,8 @@
   font-weight: 700;
   font-size: 60px;
   margin-top: 80px;
+  animation: apparition 2.5s;
+  -webkit-animation: apparition 2.5s;
 }
 
 .skills {
@@ -201,6 +209,8 @@
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  animation: apparition 2.5s;
+  -webkit-animation: apparition 2.5s;
 }
 
 .skills-global {
@@ -280,5 +290,16 @@ footer {
   }
   .logo {
     width: 150px;
+  }
+}
+
+/* ANIMATION */
+
+@keyframes apparition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
