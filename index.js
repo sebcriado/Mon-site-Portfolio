@@ -1,3 +1,5 @@
+// Initialize
+
 const btn = document.querySelector(".navbar-toggler");
 const menu = document.querySelector(".search-menu");
 const crossBtn = document.querySelector(".cross");
@@ -42,3 +44,8 @@ async function getNasaImage() {
 }
 
 getNasaImage();
+
+const myAtropos = Atropos({
+  el: ".my-atropos",
+  // rest of parameters
+});

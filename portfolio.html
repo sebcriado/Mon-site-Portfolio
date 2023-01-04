@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./portfolio.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
 </head>
 <body>
     <div class="search-menu">   
@@ -42,14 +43,16 @@
 
           <h1 class="title-portfolio">👨‍🎨 Portfolio</h1>
         <div class="cards">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/collab.png" class="card-img-top" alt="collab-responsive">
-            <div class="card-body">
-              <h5 class="card-title"> <strong>Site vitrine reponsive collab</strong></h5>
-              <p class="card-text">Exemple d'un site vitrine responsive en collaboration avec <a target="_blank" class="pauline" href="https://github.com/PaulineCurt">@PaulineCurt</a></p>
-              <a href="https://sebcriado.github.io/Website-responsive-collab/" target="_blank" class="btn btn-primary">Voir</a>
-            </div>
-          </div>
+
+        
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/collab.png" class="card-img-top" alt="collab-responsive">
+                    <div class="card-body">
+                      <h5 class="card-title"> <strong>Site vitrine reponsive collab</strong></h5>
+                      <p class="card-text">Exemple d'un site vitrine responsive en collaboration avec <a target="_blank" class="pauline" href="https://github.com/PaulineCurt">@PaulineCurt</a></p>
+                      <a href="https://sebcriado.github.io/Website-responsive-collab/" target="_blank" class="btn btn-primary">Voir</a>
+                    </div>
+                  </div>
           <div class="card" style="width: 18rem;">
             <img src="./assets/form-JS.png" class="card-img-top" alt="collab-responsive">
             <div class="card-body">
@@ -103,5 +106,15 @@
 
 
     <script src="./index.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 15,
+        speed: 200
+      });
+
+      
+      
+    </script>
 </body>
 </html>
