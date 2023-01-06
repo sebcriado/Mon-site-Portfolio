@@ -111,6 +111,18 @@
   font-size: 30px;
 }
 
+/* SCROLL */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #327228;
+  border-radius: 10px;
+}
+
 /* CONTENT */
 
 .title-portfolio {
