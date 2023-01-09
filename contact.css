@@ -329,6 +329,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 840px) {
+  .logo {
+    width: 150px;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .frame {
     height: 1400px;

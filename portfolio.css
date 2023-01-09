@@ -158,8 +158,8 @@
   color: white !important;
   border: none !important;
   height: 350px !important;
-  animation: apparition 2.5s !important;
-  -webkit-animation: apparition 2.5s !important;
+  animation: apparition 1.5s !important;
+  -webkit-animation: apparition 1.5s !important;
 }
 
 .cards {
