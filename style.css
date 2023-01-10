@@ -309,6 +309,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .title-skills {
+    font-size: 45px;
+  }
+}
+
 /* ANIMATION */
 
 @keyframes apparition {
