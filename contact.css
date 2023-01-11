@@ -47,16 +47,7 @@
 }
 
 .nav-link:hover {
-  border: 2px solid #327228;
-  border-radius: 40px;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -o-border-radius: 40px;
-}
-
-.accueil {
-  border: 2px solid #327228;
+  color: #429935 !important;
   border-radius: 40px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
